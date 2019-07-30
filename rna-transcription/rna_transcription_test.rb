@@ -24,12 +24,12 @@ class RnaTranscriptionTest < Minitest::Test
   end
 
   def test_rna_complement_of_adenine_is_uracil
-   # skip
+    #skip
     assert_equal 'U', Complement.of_dna('A')
   end
 
   def test_rna_complement
-   # skip
+    #skip
     assert_equal 'UGCACCAGAAUU', Complement.of_dna('ACGTGGTCTTAA')
   end
 end
